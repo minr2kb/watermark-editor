@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# UI Components
+
+This document outlines the UI components used throughout the Watermark Editor application.
+
+## Chakra UI Components
+
+The application uses Chakra UI with custom wrappers for consistency and theming:
+
+- [src/components/ui/provider.tsx](mdc:src/components/ui/provider.tsx): Main provider component for Chakra UI
+- [src/components/ui/color-mode.tsx](mdc:src/components/ui/color-mode.tsx): Color mode (light/dark) management
+
+### Form Components
+- [src/components/ui/input-group.tsx](mdc:src/components/ui/input-group.tsx): Input group component
+- [src/components/ui/field.tsx](mdc:src/components/ui/field.tsx): Form field wrapper
+- [src/components/ui/checkbox.tsx](mdc:src/components/ui/checkbox.tsx): Checkbox component
+- [src/components/ui/radio.tsx](mdc:src/components/ui/radio.tsx): Radio button component
+- [src/components/ui/slider.tsx](mdc:src/components/ui/slider.tsx): Slider component
+
+### Overlay Components
+- [src/components/ui/dialog.tsx](mdc:src/components/ui/dialog.tsx): Dialog modal component
+- [src/components/ui/drawer.tsx](mdc:src/components/ui/drawer.tsx): Drawer component
+- [src/components/ui/popover.tsx](mdc:src/components/ui/popover.tsx): Popover component
+- [src/components/ui/tooltip.tsx](mdc:src/components/ui/tooltip.tsx): Tooltip component
+
+### Display Components
+- [src/components/ui/avatar.tsx](mdc:src/components/ui/avatar.tsx): Avatar display component
+- [src/components/ui/close-button.tsx](mdc:src/components/ui/close-button.tsx): Close button component

@@ -1,0 +1,29 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Directory Structure
+
+## Source Code Structure
+- [src/components/](mdc:src/components): React components used throughout the app
+  - [src/components/ThumbnailEditor.tsx](mdc:src/components/ThumbnailEditor.tsx): Editor for the thumbnail image
+  - [src/components/CropModal.tsx](mdc:src/components/CropModal.tsx): Modal for cropping images
+  - [src/components/ImageCard.tsx](mdc:src/components/ImageCard.tsx): Card component to display individual images
+  - [src/components/UploadZone.tsx](mdc:src/components/UploadZone.tsx): Component for uploading images
+  - [src/components/ui/](mdc:src/components/ui): UI component wrappers and utilities
+
+- [src/hooks/](mdc:src/hooks): Custom React hooks
+  - [src/hooks/useImageProcess.ts](mdc:src/hooks/useImageProcess.ts): Core hook for image processing functionality
+
+- [src/utils/](mdc:src/utils): Utility functions
+  - [src/utils/imageProcessing.ts](mdc:src/utils/imageProcessing.ts): Functions for image manipulation
+
+- [src/types/](mdc:src/types): TypeScript type definitions
+  - [src/types/image.ts](mdc:src/types/image.ts): Types related to image data
+
+- [src/theme/](mdc:src/theme): Chakra UI theme configuration
+
+## Config Files
+- [vite.config.ts](mdc:vite.config.ts): Vite configuration
+- [tsconfig.json](mdc:tsconfig.json): TypeScript configuration

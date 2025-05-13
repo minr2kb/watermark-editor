@@ -1,0 +1,41 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Image Processing Workflow
+
+This document outlines the workflow for image processing in the Watermark Editor application.
+
+## Core Components
+
+### Image Processing Hook
+The [useImageProcess](mdc:src/hooks/useImageProcess.ts) hook manages the state and operations for all images, including:
+- Uploading images
+- Deleting images
+- Cropping images
+- Downloading processed images
+
+### Image Processing Utilities
+The [imageProcessing.ts](mdc:src/utils/imageProcessing.ts) file contains utility functions for:
+- Image manipulation
+- Canvas operations
+- File conversion
+- Watermark application
+
+## User Interface Components
+
+### Thumbnail Editor
+The [ThumbnailEditor](mdc:src/components/ThumbnailEditor.tsx) component handles the upload and display of the main thumbnail image.
+
+### Image Card
+The [ImageCard](mdc:src/components/ImageCard.tsx) component displays individual images with options to:
+- View the image
+- Delete the image
+- Crop the image
+
+### Crop Modal
+The [CropModal](mdc:src/components/CropModal.tsx) component provides an interface for cropping images using the react-easy-crop library.
+
+### Upload Zone
+The [UploadZone](mdc:src/components/UploadZone.tsx) component allows users to upload new images to be processed.
