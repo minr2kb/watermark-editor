@@ -42,6 +42,26 @@ npm run dev
 yarn dev
 ```
 
+## GitHub Pages 배포 방법
+
+이 프로젝트는 GitHub Pages에 쉽게 배포할 수 있도록 설정되어 있습니다.
+
+1. `package.json`의 `homepage` 필드를 자신의 GitHub 레포지토리 URL로 수정합니다.
+
+   ```json
+   "homepage": "https://github-username.github.io/watermark-editor"
+   ```
+
+2. 아래 명령어로 GitHub Pages에 배포합니다.
+
+   ```bash
+   npm run deploy
+   # 또는
+   yarn deploy
+   ```
+
+3. GitHub 레포지토리 설정에서 Pages 섹션의 Source를 `gh-pages` 브랜치로 설정합니다.
+
 ## 사용 방법
 
 1. 썸네일 이미지 추가 후 제목과 부제목 입력

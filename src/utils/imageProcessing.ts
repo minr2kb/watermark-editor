@@ -91,7 +91,7 @@ export const drawCroppedImage = (
 
 export const drawWatermark = async (ctx: CanvasRenderingContext2D) => {
   const watermarkImg = document.createElement('img');
-  watermarkImg.src = '/paul_logo.png';
+  watermarkImg.src = './paul_logo.png';
   await new Promise((resolve) => {
     watermarkImg.onload = resolve;
   });
@@ -132,7 +132,7 @@ export const drawThumbnailText = async (
 ) => {
   // Instead of drawing a background manually, overlay the thumbnail layout image
   const layoutImg = document.createElement('img');
-  layoutImg.src = '/thumbnail_layout.png';
+  layoutImg.src = './thumbnail_layout.png';
   await new Promise((resolve) => {
     layoutImg.onload = resolve;
   });

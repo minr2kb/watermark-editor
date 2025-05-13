@@ -45,7 +45,7 @@ function App() {
           mx="auto"
         >
           <Text fontSize="xl" fontWeight="bold">
-            바공 이미지 편집기
+            바공 워터마크 에디터
           </Text>
 
           <Button
