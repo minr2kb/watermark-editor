@@ -6,13 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   base: '/watermark-editor/',
-  build: {
-    rollupOptions: {
-      input: {
-        main: './src/main.tsx',
-      },
-    },
-  },
+  build: {},
   server: {
     port: 3000,
   },
