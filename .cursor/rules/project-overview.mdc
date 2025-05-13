@@ -1,0 +1,24 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Watermark Editor Project Overview
+
+This is a React application built with Vite, TypeScript, and Chakra UI v3 for editing and adding watermarks to images.
+
+## Main Entry Points
+- [src/main.tsx](mdc:src/main.tsx): Application entry point that sets up React rendering
+- [src/App.tsx](mdc:src/App.tsx): Main component with the application layout and structure
+
+## Key Features
+- Upload and manage multiple images
+- Set a thumbnail image
+- Crop images
+- Download all processed images
+
+## Important Dependencies
+- React with TypeScript
+- Chakra UI for component styling
+- react-easy-crop for image cropping
+- JSZip for packaging downloads

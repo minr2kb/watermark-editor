@@ -1,0 +1,47 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Development Workflow
+
+This document outlines the development workflow for the Watermark Editor application.
+
+## Getting Started
+
+1. Install dependencies:
+```
+yarn install
+```
+
+2. Start the development server:
+```
+yarn dev
+```
+
+3. Build for production:
+```
+yarn build
+```
+
+## Project Configuration
+
+- [package.json](mdc:package.json): Dependencies and npm scripts
+- [vite.config.ts](mdc:vite.config.ts): Vite build configuration
+- [tsconfig.json](mdc:tsconfig.json): TypeScript configuration
+- [eslint.config.js](mdc:eslint.config.js): ESLint rules
+- [.prettierrc](mdc:.prettierrc): Prettier formatting rules
+
+## Code Structure Best Practices
+
+1. Place new components in the appropriate directory based on their purpose:
+   - UI components in `src/components/ui/`
+   - Feature components in `src/components/`
+
+2. Add type definitions to `src/types/`
+
+3. Place utility functions in `src/utils/`
+
+4. Create custom hooks in `src/hooks/`
+
+5. Follow existing code conventions and component patterns
